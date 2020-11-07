@@ -1,0 +1,44 @@
+<html>
+    <body>
+        <form>
+            Имя: <input type="text" min="3"/>
+            Фамилия: <input type="text" min="3"/>
+            Отчество: <input type="text" min="3"/>
+            <input type="submit" value="Ок" /> 
+            <br /><br />
+            Возраст: <input type="number"  /> 
+            <br />
+            <input type="checkbox" /> Я подтвержаю данную информацию
+            <input type="submit" value="Ок" />
+        </form> 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+        <form> 
+            Имя: <input type="text" required/>
+            Фамилия: <input type="text" required/>
+            Отчество: <input type="text" />
+            <br /> <br /> Пол: <br /> 
+            <form action="">
+                <input type="radio" name="sex" /> Мужской<br />
+                <input type="radio" name="sex" /> Женский
+            </form> 
+            <br /> <br />
+            Возраст: <input type="number" required /> 
+            <br /> <br />
+            Телефон: <input type="number"  placeholder="+7 910 965 34 52" required/> 
+            <br /> <br />
+            Email: <input type="email" placeholder="example@test.com" required/> 
+            <br /> <br />
+            <select> 
+                <option>ЭПИ-11</option>
+                <option>ЭПИ-21</option>
+                <option>ЭПИ-21а</option>
+            </select>
+            <br /> <br />
+            Пароль: <input type="password" required/> <br />
+            Повторите пароль: <input type="password" required/> <br /> <br />
+            <input type="checkbox" /> Учусь платно
+            <br /> <br />
+            <input type="submit" value="Зарегистрироваться" />
+        </form>
+    </body>
+</html>
